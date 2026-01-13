@@ -20,7 +20,7 @@ body:
     id: synonyms
     attributes:
       label: Synonyms
-      description: Alternative term(s) or acroynymm for the preferred label. Separate by a comma.
+      description: Alternative term(s) or acronym for the preferred label. Separate by a comma.
       placeholder:  ex. SCRMS, SC rhabdomyosarcoma
     validations:
       required: false
@@ -48,7 +48,7 @@ body:
     id: parent
     attributes:
       label: Parent term
-      description: Provide a parent term or superclass (ie the class this new term should be classified under. Provide the ID and label.
+      description: Provide a parent term or superclass (ie the class this new term should be classified under). Provide the ID and label.
       placeholder: ex. MONDO:0005212 rhabdomyosarcoma
     validations:
       required: true
